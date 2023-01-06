@@ -128,6 +128,10 @@ body{
     width: 2.5vmin;
 }
 
+#needLogIn{
+    font-size: 3vmin;
+    color: rgba(0, 0, 0, 0.5);
+}
 #ToDoListContainer{
     width: 50%;
     padding-top:3vmin;
@@ -156,6 +160,7 @@ body{
     display: inline-block;
     color: black;
 }
+
         /* ul */
 #todo_list{
     display: inline-block;

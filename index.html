@@ -49,16 +49,15 @@
     <!-- todo list -->
     <div id="ToDoListContainer">
         <span class="title">To Do List</span>
-        
+            <!-- 로그인하기 전엔 todoList 작성 불가, 로그인 안내 메시지 -->
         <div id = "listContainer">
+            <span id="needLogIn">Please Log in to create a list</span>
             <form id="todo_form" class="hidden">
                 <input id="todo_form_input" required type="text" 
                 placeholder="Write your To Do and press Enter"/>
             </form>
             
             <ul id="todo_list" class="hidden"></ul>
-
-            <span id="needLogIn">Log in to create a list</span>
         </div>
     </div>
         

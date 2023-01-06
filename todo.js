@@ -77,9 +77,3 @@ if(getSavedTodos !== null){
     parsedTodos.forEach(paintTodo);
 }
 
-// 로그인 (사용자 이름 입력) 전엔 todo리스트 숨기기 (greeting.js 참고)
-if (savedUserName !== null) {
-    todoForm.classList.remove(HIDDEN_CLASSNAME);
-    todoList.classList.remove(HIDDEN_CLASSNAME);
-    needLogIn.classList.add(HIDDEN_CLASSNAME)
-    } 

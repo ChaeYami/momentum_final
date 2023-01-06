@@ -23,6 +23,7 @@ function loginSubmit(event){ // preventdefault하기 위해 첫번째 인자에 
     // TODO LIST도 보이게 하자
     todoForm.classList.remove(HIDDEN_CLASSNAME);
     todoList.classList.remove(HIDDEN_CLASSNAME);
+    needLogIn.classList.add(HIDDEN_CLASSNAME);
 
 }
 
