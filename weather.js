@@ -12,9 +12,9 @@ function onGeoOk(position){
         const otherTemp = document.getElementById("other_temp");
         
 
-        weather.innerText = `${data.main.temp}º , ${data.weather[0].main}`;
+        weather.innerHTML = `${data.main.temp}º <img src="icons/${data.weather[0].icon}.png">`;
         city.innerText =`${data.name} `;
-        otherTemp.innerText = `${data.main.temp_max}º / ${data.main.temp_min}º \n feels like ${data.main.feels_like}º`;
+        otherTemp.innerText = `${data.main.temp_max}º /  ${data.main.temp_min}º \n feels like ${data.main.feels_like}º`;
         
     });
 }

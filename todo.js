@@ -77,3 +77,9 @@ if(getSavedTodos !== null){
     parsedTodos.forEach(paintTodo);
 }
 
+if (savedUserName !== null) {
+    todoForm.classList.remove(HIDDEN_CLASSNAME);
+    todoList.classList.remove(HIDDEN_CLASSNAME);
+    needLogIn.classList.add(HIDDEN_CLASSNAME);
+    } 
+
