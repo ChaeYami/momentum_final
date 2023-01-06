@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Momentum</title>
+</head>
+<body>
+
+<div id = "main">
+    
+    <!-- clock -->
+    <div id = "clockdiv">
+        <h2 id = "clock">00:00:00</h2>
+    </div>
+            
+
+    <div id="left">
+        <!-- login -->
+        <div>
+
+            <form id="login-form" class="hidden">
+                    <!-- required : 필수입력 -->
+                <input id="login-form_input" required maxlength="15"
+                type="text" placeholder="Enter your name here"/>
+                <button id="login-form_button" >Log In</button>
+            </form>
+
+            <h1 id = "greeting" class="hidden"></h1>
+
+        </div>
+
+        <!-- weather -->
+        <div id = weather_section>
+            <span class="title">Weather</span>
+            
+            <div id = "weatherContainer">
+                <span id = "weather"></span><br>
+                <span id = "city"></span><img src="img/gps_icon.png"><br>
+                <span id = "other_temp"></span>            
+            </div>
+            
+        </div> 
+           
+    </div>
+
+    <!-- todo list -->
+    <div id="ToDoListContainer">
+        <span class="title">To Do List</span>
+        
+        <div id = "listContainer">
+            <form id="todo_form" class="hidden">
+                <input id="todo_form_input" required type="text" 
+                placeholder="Write your To Do and press Enter"/>
+            </form>
+            
+            <ul id="todo_list" class="hidden"></ul>
+        </div>
+    </div>
+        
+    <!-- quote -->
+    <div id="quote">
+        <span id="q_text"></span><br>
+        <span id ="q_author"></span>
+    </div>
+    
+    <!-- background cover  -->
+    <div id="bgbg"></div>
+</div>
+    <!-- js sources -->
+    <script src="greeting.js"></script>
+    <script src="clock.js"></script>
+    <script src="quotes.js"></script>
+    <script src="background.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+
+</body>
+</html>
