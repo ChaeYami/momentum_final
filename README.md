@@ -7,4 +7,8 @@
 ### Before logging in
 - You can't create a todolist.
 - Also you cannot see previously created todo-lists.
-- A guide message appears before logging in.
+- A guide message appears before logging in.  
+  
+  
+    
+As an aside, the gps logo in the weather section is drawn by myself.
