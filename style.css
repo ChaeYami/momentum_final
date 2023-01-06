@@ -115,17 +115,17 @@ body{
 #weatherContainer{
     background-color: rgba(255, 255, 255, 0.5);
     color: black;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     text-align: left;
     border-radius: 5px;
     padding: 2vmin;
     margin: 2vmin;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     border: 3px inset rgb(226, 165, 255); 
     display: inline-block;
 }
 #weatherContainer img{
-    width: 2.5vmin;
+    width: 2vmin;
 }
 
 #needLogIn{

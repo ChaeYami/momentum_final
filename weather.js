@@ -14,7 +14,7 @@ function onGeoOk(position){
 
         weather.innerText = `${data.main.temp}º , ${data.weather[0].main}`;
         city.innerText =`${data.name} `;
-        otherTemp.innerText = `${data.main.temp_max}º / <br> ${data.main.temp_min}º feels like ${data.main.feels_like}º`;
+        otherTemp.innerText = `${data.main.temp_max}º / ${data.main.temp_min}º \n feels like ${data.main.feels_like}º`;
         
     });
 }
