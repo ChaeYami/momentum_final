@@ -1,6 +1,7 @@
 const todoForm = document.getElementById("todo_form");
 const todoInput = todoForm.querySelector("input");
 const todoList = document.getElementById("todo_list"); //ul
+const needLogIn = document.getElementById("needLogIn");
 
 const TODOS_KEY = "todos";
 
@@ -80,4 +81,5 @@ if(getSavedTodos !== null){
 if (savedUserName !== null) {
     todoForm.classList.remove(HIDDEN_CLASSNAME);
     todoList.classList.remove(HIDDEN_CLASSNAME);
+    needLogIn.classList.add(HIDDEN_CLASSNAME)
     } 
