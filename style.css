@@ -137,6 +137,7 @@ body{
 #weather img{
     width: 3.5vmin;
     object-fit: contain;
+    background-color: gray;
 }
 #needLogIn{
     font-size: 3vmin;
